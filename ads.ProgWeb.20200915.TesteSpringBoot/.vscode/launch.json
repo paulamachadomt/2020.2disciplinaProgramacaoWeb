@@ -1,0 +1,14 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "Spring Boot-TesteSpringbootApplication<teste-springboot>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "console": "internalConsole",
+            "mainClass": "com.usj.ads.testespringboot.TesteSpringbootApplication",
+            "projectName": "teste-springboot",
+            "args": ""
+        }
+    ]
+}

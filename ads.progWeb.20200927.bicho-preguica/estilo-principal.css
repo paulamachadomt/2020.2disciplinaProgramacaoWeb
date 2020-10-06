@@ -1,0 +1,233 @@
+/* resetar estilos */
+*{
+    font-family: Verdana;
+    list-style: none;
+    margin: 0;
+    padding: 0;
+}
+
+
+/* itens do menu */
+a {
+    color: rgb(40, 54, 11);
+    text-decoration: none;
+}
+
+
+/* imagens */
+img {
+    display: block;
+    max-width: 100%;
+}
+
+
+/* logo + nome da empresa no cabeçalho */
+.header-logo-name {
+    display: flex;
+}
+
+
+/* nome da empresa no cabeçalho */
+.header-logo-name p{
+    color: rgb(40, 54, 11);
+    font-weight: bold;
+    font-size: 23px;
+    padding: 10px;
+}
+
+
+/* cabeçalho inteiro */
+.header {
+    align-items: center;
+    background: rgb(167, 177, 149);
+    box-shadow: 0 2px 5px 0 rgba(0,0,0,0.16), 0 2px 10px 0 rgba(0,0,0,0.12);
+    display: flex;
+    font-family: Arial;
+    justify-content: space-between;
+    padding: 10px;    
+}
+
+
+.menu {
+    display: flex;          
+}
+
+
+.menu li {
+    margin-left: 10px;
+}
+
+
+.menu li a {
+    display: block;
+    color: rgb(40, 54, 11);
+    font-size: 20px;
+    font-weight: bold;
+    padding: 10px;
+}
+
+
+body {
+    
+    background: lightgrey;
+}
+
+
+main {
+    display: flex;
+    justify-content: center;
+    margin: 0 auto;
+    min-height: 80vh;    
+}
+
+
+.main-left {
+    border: 1px groove olivedrab;
+    border-radius: 5px;
+    color: rgb(59, 80, 16);
+    font-size: 16px;
+    letter-spacing: 1px;
+    line-height: 1.2;
+    margin: 20px;
+    margin-top: 80px;
+    max-height: 215px;
+    padding: 15px;
+    padding: 40px;
+    width: 450px;   
+}
+
+
+a > .main-left {
+    color: rgb(40, 54, 11);
+}
+
+
+.main-right img {
+    margin: 20px;
+    margin-top: 80px;
+    width: 450px;    
+}
+
+
+/* FORMULÁRIO */
+
+.contato {
+    color: rgb(59, 80, 16);
+    display: block;
+    font-size: 13px;
+}
+
+
+.title-form {
+    font-size: 16px;    
+    margin-top: 15px;
+    margin-bottom: 15px;
+    padding: 20px;
+}
+
+
+fieldset{
+    padding: 20px;
+}
+
+
+label {
+    margin-top: 10px;
+    margin-left: 20px;    
+}
+
+
+input {
+    box-sizing: border-box;
+    margin-left: 20px; 
+    margin-bottom: 15px;
+    padding: 12px 10px;
+    width: 94%;
+}
+
+
+textarea {
+    border-radius: 2px;
+    margin-left: 20px; 
+    margin-bottom: 15px;
+    resize: none;
+}
+
+
+button {
+    background-color: rgb(40, 54, 11);
+    border-radius: 5px;
+    color: whitesmoke;
+    display: flex;
+    font-size: 16px;
+    margin-left: 20px; 
+    margin-bottom: 15px;
+    padding-left: 10px;
+    padding-right: 10px;
+    padding-top: 5px;
+    padding-bottom: 5px;
+}
+
+
+/* LOJA */
+
+.produtos img {
+    border-radius: 5px;
+    display: block;
+    max-width: 100%;
+}
+
+
+.produtos {
+    display: flex;
+    flex-wrap: wrap;
+    max-width: 800px;
+    margin: 0 auto;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+
+
+.produtos > div {
+    color: rgb(40, 54, 11);    
+    flex: 1 1 200px;
+    font-size: 14px;
+    font-family: Verdana;
+    margin: 10px;
+}
+
+
+/* PRODUTO */
+
+.produtos {
+    display: flex;
+}
+
+
+.button-comprar {
+    margin-top: 80px;
+    padding: 15px;
+    margin-left: -3px;
+}
+
+
+/* FOOTER */
+
+footer {
+    background-color: rgb(167, 177, 149);
+    bottom: 0;
+    font-size: 12px;
+    font-family: Verdana;
+    padding-top: 20px;
+    padding-bottom: 20px;
+    padding-left: 20px;
+    position: relative;
+    width: 100%;    
+}
+
+
+footer a {
+    text-decoration: underline;
+}
+
+
