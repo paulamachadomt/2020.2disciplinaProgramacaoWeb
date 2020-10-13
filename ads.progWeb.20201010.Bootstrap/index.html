@@ -1,0 +1,130 @@
+<!DOCTYPE html>
+<html lang="pt">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Livraria Bicho-Preguiça</title>
+    <!-- CSS only -->
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+</head>
+
+<body>
+    <header>
+        <nav class="navbar navbar-expand-lg navbar-light bg-dark">
+            <a class="navbar-brand" style="font-weight: 700; color: rgb(255, 208, 0);" href="#">
+                <img src="/assets/Coala.jpg" height="50" class="d-inline-block align-center" loading="lazy">
+                Livraria Bicho-Preguiça
+            </a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNav"
+                aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse" id="navbarNav">
+                <ul class="navbar-nav">
+                    <li class="nav-item active">
+                        <a class="nav-link" style="color: rgb(255, 208, 0);" href="#">Home <span class="sr-only">(current)</span></a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" style="color: rgb(255, 208, 0);" href="#">Loja</a>
+                    </li>
+                    <li class="nav-item active">
+                        <a class="nav-link" style="color: rgb(255, 208, 0);" href="#">Contato</a>
+                    </li>
+                </ul>
+            </div>
+            <form class="form-inline">
+                <input class="form-control mr-sm-2" type="search" placeholder="O que você procura?" aria-label="Search">
+                <button class="btn btn-outline-warning my-2 my-sm-0" type="submit">Pesquisar</button>
+            </form>
+        </nav>
+    </header>
+
+    <main>
+        <div class="alert alert-danger" role="alert">
+            <h6>Atenção <span class="badge badge-danger">!!!</span> <span
+                    style="font-weight: normal; margin-left: 5px;"> Loja virtual fora do ar. Volte novamente mais
+                    tarde.</span> </h6>
+        </div>
+
+        <div class="container" style="padding: 30px;">
+            <h4 class="mais-vendidos" style="text-decoration: underline; margin-bottom: 25px; color: rgb(59, 55, 50); font-weight: bolder;">MAIS VENDIDOS</h4>
+            <div class="row">
+                <div class="col-3">
+                    <div class="card mb-3" style="width: 14rem;">
+                        <img src="/assets/milionario.jpg" class="card-img-top" height="303" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">O milionário consciente</h6>
+                            <p class="card-text">Joe Vitale</p>
+                            <p class="card-text"><small class="text-muted" style="font-weight: bold;">£154,97</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card mb-3" style="width: 14rem;">
+                        <img src="/assets/mentemil.jpg" class="card-img-top" height="303" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">Os segredos da mente...</h6>
+                            <p class="card-text">T. Harv Eker</p>
+                            <p class="card-text"><small class="text-muted" style="font-weight: bold;">£212,17</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card mb-3" style="width: 14rem;">
+                        <img src="/assets/mindsetsucesso.jpg" class="card-img-top" height="303" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">Mindset</h6>
+                            <p class="card-text">Carol S. Dweck</p>
+                            <p class="card-text"><small class="text-muted" style="font-weight: bold;">£89,97</small></p>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-3">
+                    <div class="card mb-3" style="width: 14rem;">
+                        <img src="/assets/habito.jpg" class="card-img-top" height="303" alt="...">
+                        <div class="card-body">
+                            <h6 class="card-title">O poder do hábito</h6>
+                            <p class="card-text">Charles Duhigg</p>
+                            <p class="card-text"><small class="text-muted" style="font-weight: bold;">£147,23</small></p>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="row">
+                <div class="col-3">
+                    <button type="button" class="btn btn-light btn-lg"
+                        style="background-color:  rgb(63, 61, 61); color: rgb(255, 208, 0); font-weight: bold;">Ver
+                        mais
+                    </button>
+                </div>
+            </div>
+        </div>
+    </main>
+
+    <footer>
+        <div class="jumbotron jumbotron-fluid">
+            <div class="container">
+                <h1 class="display-4" style="font-size: 30px;">Bem-vindo(a) à Livraria Bicho-Preguiça</h1>
+                <p class="lead">Aqui você encontra ótimos livros para quem tem preçuiça de ler! Nossos livros são
+                    otimizados para uma leitura super dinâmica: basta ler a primeira frase de cada página! Confira já nossa
+                    loja virtual.
+                </p>
+            </div>
+        </div>
+    </footer>
+
+    <!-- JS, Popper.js, and jQuery -->
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+</body>
+
+</html>
