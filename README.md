@@ -1,2 +1,3 @@
-# 2020.2disciplinaProgramacaoWeb
-Atividades e estudos sobre programação web das disciplinas de linguagem de programação ii e design da informação/interface homem-máquina.
+## 2020.2disciplinaProgramacaoWeb
+
+### Atividades e estudos sobre programação web das disciplinas de Linguagem de Programação II e Design da Informação/Interface Homem-Máquina.
