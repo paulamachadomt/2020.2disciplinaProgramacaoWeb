@@ -1,0 +1,91 @@
+html, body{
+	background-color: #d9d9d9;
+	width: 100%;
+	height: 100%;
+	margin: 0;
+	padding: 0;
+	overflow: hidden;
+}
+
+.cimape {
+	color: white;
+	position: absolute; 
+	height: 30px;
+	width: 100%; 
+	background-color: black;
+
+}
+
+.bot {
+	width: 100%;
+	height: 5.5%;
+	background-color: #7d9ab8;
+}
+
+#palpitando {
+	font-size: 28px;
+	position: absolute;
+	color: green;
+	height:100%;
+	top: 30px;	
+	text-align: left;
+	padding-left: 20px;
+	padding-top: 4px;
+}
+
+#info{	
+	padding-right: 13rem;
+	width: 100px;
+	height: 35px;	
+	color: whitesmoke;
+	position: absolute;
+	top: 30px;
+	right: 150px;
+	font-weight: regular;
+	font-size: 24px;
+}
+
+#contato{
+	padding-right: 10rem;
+	width: 100px;
+	height: 35px;	
+	color: whitesmoke;
+	position: absolute;
+	top: 30px;
+	right: 10px;
+	font-weight: regular;
+	font-size: 24px;
+
+}
+
+main .descubra {
+	padding-top: 20em;
+	display: block;	
+	height:75%;	
+	width:100%;
+	text-align: center;
+	color: #c00;	
+}
+
+h3 {
+	line-height: 3em;
+}
+
+.linguagem {
+	padding-bottom: 10rem;
+}
+
+.framework {
+	padding-bottom: 10rem;
+}
+
+.rodape {
+	color: white;
+	position: absolute; 
+	bottom: 0px; 
+	width: 100%; 
+	height: 30px; 
+	background-color: black;
+	
+}
+
