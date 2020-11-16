@@ -1,0 +1,17 @@
+body {
+    background-color: rgb(135, 62, 148);
+}
+
+div,
+h1 {
+    color: rgb(255, 226, 59);
+    font-weight: bold;
+    text-decoration: wavy;
+    text-align: center;
+}
+
+div {
+    font-size: 4em;
+    
+}
+
